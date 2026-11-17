@@ -7,11 +7,13 @@
 <body><main>
   <a class="brand" href="./">first shift<span>.</span></a>
   <h1>Privacy <mark>Policy</mark></h1>
-  <p class="meta">Effective November 9, 2026</p>
+  <p class="meta">Effective November 17, 2026</p>
 
   <p class="note">The short version: there's no account, and your resumes are saved only on your phone. When you use an
-  AI feature, your resume text is sent to our server and to Anthropic's Claude AI to make your results. Our server
-  doesn't store it, and it isn't used to train AI. We never ask for your name, email or phone number.</p>
+  AI feature, your resume text (and any job posting or interview practice answer) is sent to our server and to
+  Anthropic's Claude AI to make your results. Our server doesn't store it, and it isn't used to train AI. Spoken
+  practice answers are turned into text on your phone; audio is never uploaded. We never ask for your name, email or
+  phone number.</p>
 
   <h2>Who we are</h2>
   <p>First Shift ("we", "us") is a resume app for people looking for entry-level jobs, operated by Austin Nieves.
@@ -24,7 +26,10 @@
     <li>Your saved resumes (the text you paste, or the text read from a PDF or Word file you upload) and the names you
       give them.</li>
     <li>Tailored versions of your resumes and any edits you make to them.</li>
-    <li>Your results: resume scores, job matches and job fit checks.</li>
+    <li>Your results: resume scores and score history, job matches, job fit checks and cover letters.</li>
+    <li>Your interview practice: the questions, your answers and their feedback.</li>
+    <li>Your application tracker: jobs you add, their status, notes and follow-up reminders (scheduled on your phone),
+      and the city or ZIP you can give for job searches.</li>
     <li>Your choice about AI processing, and whether you've finished the intro screens.</li>
   </ul>
   <p>When you upload a file, the app reads its text on your phone and deletes its temporary copy right away. The file
@@ -35,13 +40,18 @@
   that kind of information; it stays on your phone except as described in the next section.</p>
 
   <h2>When you use an AI feature</h2>
-  <p>First Shift asks for your permission before any resume text leaves your phone. After you agree, each time you run
-  Resume Score, Best Job Matches, Job Fit or Tailor, the app sends:</p>
+  <p>First Shift asks for your permission before any resume text leaves your phone. After you agree, each time you use
+  an AI feature (Resume Score, the resume builder, Best Job Matches, Job Fit, Tailor, cover letters, or interview
+  questions and feedback), the app sends:</p>
   <ul>
-    <li>the text of the resume you picked,</li>
+    <li>the text of the resume you picked (or, for the resume builder, the answers you typed),</li>
     <li>a job posting you paste or a job title you type, if the feature uses one,</li>
+    <li>for interview feedback, the question and the text of your answer,</li>
     <li>your anonymous device ID (see below),</li>
   </ul>
+  <p><strong>Voice answers:</strong> if you answer interview questions out loud, your iPhone's on-device speech
+  recognition turns your voice into text on the phone. The audio is never recorded to a file or uploaded; only the
+  text is sent, as above. The app asks for microphone and speech recognition permission before the first time.</p>
   <p>over an encrypted connection (HTTPS) to our server, which runs on Cloudflare. Our server passes the text to
   Anthropic's Claude AI, checks the answer, and sends the result back to your phone. <strong>Our server does not store
   your resume or job posting text, and does not write it to logs.</strong> It is held in memory only while your request
@@ -68,6 +78,11 @@
   RevenueCat whether your device ID has unlocked, to apply the right limits. RevenueCat never receives your resumes.
   We never receive your payment details. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy
   policy</a> and <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
+
+  <h2>Job searches and reminders</h2>
+  <p>"Find openings near me" opens an Indeed or Google Jobs search in your browser for the job title, near the city or
+  ZIP you gave (if any). Those searches go straight to Indeed or Google under their own privacy policies; nothing is
+  sent to us. Follow-up reminders are local notifications scheduled on your phone; no server is involved.</p>
 
   <h2>Sharing and PDF export</h2>
   <p>When you export a PDF or share your score or top jobs, the file or image is made on your phone and Apple's share
